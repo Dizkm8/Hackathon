@@ -1,4 +1,5 @@
 # Centinela Mine Sensor Prediction
+
 ## Overview
 This Jupyter Notebook project aims to predict sensor failures in the Centinela Mine using a linear regression model.
 The model utilizes data processing with Pandas, numerical operations with NumPy, visualization with Matplotlib, 
