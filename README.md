@@ -1,19 +1,22 @@
-# Centinela Mine Sensor Prediction
+# Modelo de Predicción de Valores Faltantes en Sensores de Concentraducto
 
-## Overview
-This Jupyter Notebook project aims to predict sensor failures in the Centinela Mine using a linear regression model.
-The model utilizes data processing with Pandas, numerical operations with NumPy, visualization with Matplotlib, 
-and machine learning functionality from Scikit-Learn.
+## Resumen
+Este proyecto en Jupyter Notebook tiene como objetivo predecir valores faltantes cuando un sensor específico falla dentro del Concentraducto
 
-## Prerequisites
-Ensure you have the following Python libraries installed:
+Para abordar este problema, se utilizó Pandas y Matplotlib para la exploración de datos. Posteriormente, se entrenaron modelos de regresión lineal y no-lineal de ScikitLearn y XGBoost para predecir los valores faltantes.
 
-Pandas
-NumPy
-Matplotlib
-Scikit-Learn
-You can install them using the following command:
+## Requisitos Previos
+1. Debido a estándares empresariales, se requiere Python 3.9. Verifique su versión con:
+    ```bash
+    python --version # Powershell
+    python3 --version # Linux or Mac
+    ```
 
-```bash
-pip install pandas numpy matplotlib scikit-learn
-```
+2. Instale las bibliotecas de Python necesarias:
+    ```bash
+    pip install pandas numpy matplotlib scikit-learn xgboost jupyter
+    ```
+4. Ejecute el Jupyter Notebook `SolucionFinal.ipynb` utilizando el siguiente comando:
+    ```bash
+    jupyter notebook SolucionFinal.ipynb
+    ```
