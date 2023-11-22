@@ -20,3 +20,9 @@ Para abordar este problema, se utilizó Pandas y Matplotlib para la exploración
     ```bash
     jupyter notebook SolucionFinal.ipynb
     ```
+
+## Third-Party Libraries and Licenses
+
+- [Pandas](https://github.com/pandas-dev/pandas/blob/main/LICENSE)
+- [Scikit-Learn](https://github.com/scikit-learn/scikit-learn/blob/main/COPYING)
+- [XGBoost](https://github.com/dmlc/xgboost/blob/master/LICENSE)
